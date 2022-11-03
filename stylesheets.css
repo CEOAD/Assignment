@@ -13,6 +13,7 @@ h1{
 .flexible {
     display: inline-flex;
     margin-left: 20px;
+    box-sizing: border-box;
     
 
 }
@@ -29,6 +30,13 @@ p{
 section{
     border: solid violet 2px;
     padding-bottom: 50px;
-    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; 
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
+    margin: 20px;
 }
 
+button{
+    background-color: rgb(90, 124, 90);
+    color: white;
+    border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;
+    padding: 10px;
+}
