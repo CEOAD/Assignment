@@ -1,6 +1,6 @@
-body{
+#main{
     display: grid;
-    grid-template-columns: 1fr 3fr; 
+    grid-template-columns: 1fr 3fr;
 }
 h1{
     text-align: center;
@@ -39,4 +39,12 @@ button{
     color: white;
     border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;
     padding: 10px;
+}
+aside{
+    background-color: beige;
+    height: 100vh;
+}
+article{
+    background-color: bisque;
+    height: 100vh;
 }
