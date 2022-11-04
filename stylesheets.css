@@ -42,18 +42,22 @@ section{
 }
 aside{
     background-color: beige;
-      height: 100vh; /*stackoverflow */
+      height: 105vh; 
 }
 article{
     background-color: bisque;
-    height: 100vh; 
+    height: 105vh; 
 }
 .div3{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
 .footer-button{
+    background-color: bisque;
     display: flex;
     background-color: transparent;
     border: 0em;
+}
+footer{
+    line-height: 2px;
 }
