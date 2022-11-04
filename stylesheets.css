@@ -29,12 +29,12 @@ p{
 }
 section{
     border: solid violet 2px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
     margin: 20px;
 }
 
-button{
+.button{
     background-color: rgb(90, 124, 90);
     color: white;
     border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;
@@ -42,9 +42,18 @@ button{
 }
 aside{
     background-color: beige;
-    height: 100vh;
+      height: 100vh; /*stackoverflow */
 }
 article{
     background-color: bisque;
-    height: 100vh;
+    height: 100vh; 
+}
+.div3{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-button{
+    display: flex;
+    background-color: transparent;
+    border: 0em;
 }
