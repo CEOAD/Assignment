@@ -68,12 +68,52 @@ article{
 footer{
     line-height: 2px;
 }
-@media (min-device-width: 375px) 
-and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 3) {
+@media (max-width: 500px)    {
     #main{
         display: inline-block;
         font-family: 'Luxurious Roman', cursive;
     }
-
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    aside{
+        display: flex;
+        background-color: bisque;
+        width: 90vw;
+        height: fit-content;
+          /* height: 118vh;  */
+         
+    }
+    article{
+        background-color: #F9F3EC;
+        /* height: 118vh; 
+        width: 102%; */
+    
+    }
+    section{
+        display: flex;
+        justify-content: center;
+    }
+    textarea{
+        border: solid violet 2px;
+        padding-bottom: 150px;
+        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
+        width: 95%;
+        font-family: inherit;
+        margin: 0%;
+    }
+    .button{
+        background-color: #55869B;
+        color: white;
+        border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;
+        padding: 10px;
+        font-family: inherit;
+        margin-left: 0%;
+    }
+    footer{
+        display: flex;
+        line-height: 2px;
+        justify-content: center;
+    }
 }
