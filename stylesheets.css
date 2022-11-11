@@ -30,7 +30,7 @@ p{
     grid-template-columns: repeat(2, 1fr);
 }
 textarea{
-    border: solid violet 2px;
+    border: solid #ee82ee 2px;
     padding-bottom: 150px;
     border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
     margin: 20px;
@@ -39,7 +39,7 @@ textarea{
 }
 
 .button{
-    background-color: #55869B;
+    background-color: #5394A0;
     color: white;
     border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;
     padding: 10px;
