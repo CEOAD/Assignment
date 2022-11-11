@@ -47,12 +47,12 @@ textarea{
 }
 aside{
     background-color: bisque;
-      height: 118vh; 
+      height: 110vh; 
      
 }
 article{
     background-color: #F9F3EC;
-    height: 118vh; 
+    height: 110vh; 
     width: 102%;
 
 }
@@ -67,6 +67,9 @@ article{
 }
 footer{
     line-height: 2px;
+    position: relative;
+    text-align: center;
+    bottom: 0px;
 }
 @media (max-width: 500px)    {
     #main{
@@ -80,15 +83,14 @@ footer{
     aside{
         display: flex;
         background-color: bisque;
-        width: 90vw;
+        width: 95vw;
         height: fit-content;
-          /* height: 118vh;  */
+
          
     }
     article{
         background-color: #F9F3EC;
-        /* height: 118vh; 
-        width: 102%; */
+
     
     }
     section{
@@ -115,5 +117,6 @@ footer{
         display: flex;
         line-height: 2px;
         justify-content: center;
+        bottom: 5px;
     }
 }
