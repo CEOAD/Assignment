@@ -1,4 +1,4 @@
-let dark = document.getElementById('Dark');
+let dark = document.getElementById('Dark')
 const article = document.querySelector(".light-theme2")
 
 const aside = document.querySelector(".light-theme1")
@@ -19,13 +19,23 @@ let cancel = document.getElementById('Cancel')
 
 const textarea = document.querySelector('textarea')
 const save = document.querySelector('#save')
-console.log(save)
 
 let Hidden = () => {
     textarea.style.display= "none";
     save.style.display= "none";
     cancel.style.display= "none";
 }
-
-console.log(cancel)
 cancel.addEventListener('click', Hidden);
+let New = document.getElementById('New')
+
+let NewNote = () => {
+    if (textarea.style.display == "none") {
+    textarea.style.display= "block";
+    save.style.display= "flex";
+    cancel.style.display= "flex";
+    }
+    else {
+        textarea.value= '';
+    }
+}
+New.addEventListener('click', NewNote)
