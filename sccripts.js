@@ -15,3 +15,17 @@ let dark_themed = () => {
 
 dark.addEventListener('click', dark_themed);
 
+let cancel = document.getElementById('Cancel')
+
+const textarea = document.querySelector('textarea')
+const save = document.querySelector('#save')
+console.log(save)
+
+let Hidden = () => {
+    textarea.style.display= "none";
+    save.style.display= "none";
+    cancel.style.display= "none";
+}
+
+console.log(cancel)
+cancel.addEventListener('click', Hidden);
