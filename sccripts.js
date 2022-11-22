@@ -39,3 +39,30 @@ let NewNote = () => {
     }
 }
 New.addEventListener('click', NewNote)
+
+const notesArray = [];
+    //  [ {title:"note one", body:"this is my first note"}];
+let SaveTheNote = () => {
+    let t = prompt() 
+        {notesArray.push({title: t , body: textarea.value})} 
+    console.log(notesArray)
+    let notes = document.querySelector('.notes')
+    var li = document.createElement("li");
+    li.appendChild(document.createTextNode(t))
+    notes.appendChild(li)
+}
+save.addEventListener('click', SaveTheNote)
+let notes = document.querySelector('.notes')
+
+let Search_for_note = (e) => {
+    for (i in notesArray){
+      if  (e == i['title']) {
+        textarea.value = i['body']
+        console.log('hello')
+      }
+    }
+}
+
+notes.addEventListener('click', Search_for_note)
+
+
