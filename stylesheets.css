@@ -19,6 +19,17 @@ h1{
     
 
 }
+
+.dark-theme1{
+    background-color: rgba(0, 0, 0, 0.769);
+}
+.dark-theme2 {
+    background-color: navy;
+}
+.dark-theme3 {
+    color: white;
+}
+
 ul {
     list-style-type: square;
 }
@@ -70,6 +81,17 @@ footer{
     position: relative;
     text-align: center;
     bottom: 0px;
+}
+
+.light-theme1 {
+    background-color: bisque;
+} 
+.light-theme2 {
+
+    background-color: #F9F3EC;
+}
+.light-theme3{
+    color: black;
 }
 @media (max-width: 500px)    {
     #main{
