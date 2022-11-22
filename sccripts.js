@@ -8,11 +8,10 @@ let dark_themed = () => {
     article.classList.toggle('light-theme2')
     aside.classList.toggle('light-theme1')
     body.classList.toggle('light-theme3')
-    if (dark.textContent= 'Dark Theme') {
-        dark.textContent = 'Light Theme'}
+    if (dark.textContent == 'Light Theme') {
+        dark.textContent = 'Dark Theme'}
     else {
-    dark.textContent = 'Dark Theme'
-}}
-// dark.addEventListener('click', light_themed);
+    dark.textContent = 'Light Theme'}}
+
 dark.addEventListener('click', dark_themed);
 
