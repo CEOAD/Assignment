@@ -44,7 +44,7 @@ const notesArray = [];
     //  [ {title:"note one", body:"this is my first note"}];
 let SaveTheNote = () => {
     let t = prompt() 
-        {notesArray.push({title: t , body: textarea.value})} 
+        {notesArray.push({title: t ,body: textarea.value})} 
     console.log(notesArray)
     let notes = document.querySelector('.notes')
     var li = document.createElement("li");
@@ -55,10 +55,12 @@ save.addEventListener('click', SaveTheNote)
 let notes = document.querySelector('.notes')
 
 let Search_for_note = (e) => {
-    for (i in notesArray){
-      if  (e == i['title']) {
+    console.log(e.target.textContent)
+
+    for (i of notesArray){
+        console.log(i)
+      if  (i['title'] === e.target.textContent) {
         textarea.value = i['body']
-        console.log('hello')
       }
     }
 }
