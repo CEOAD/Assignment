@@ -21,13 +21,13 @@ h1{
 }
 
 .dark-theme1{
-    background-color: rgba(0, 0, 0, 0.769);
+    background-color: #303030;
 }
 .dark-theme2 {
-    background-color: navy;
+    background-color: #1b1c1e;
 }
 .dark-theme3 {
-    color: white;
+    color: rgba(255, 255, 255, 0.82);
 }
 
 ul {
@@ -55,6 +55,12 @@ textarea{
     border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;
     padding: 10px;
     font-family: inherit;
+    cursor: pointer;
+}
+.button:hover {
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px
+    #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
 }
 aside{
     background-color: bisque;
