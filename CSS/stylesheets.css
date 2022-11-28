@@ -1,7 +1,12 @@
 #main{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+
+}
+body{
     font-family: 'Luxurious Roman', cursive;
+    /* display: grid;
+    grid-template-columns: 1fr 4fr; */
 }
 .notes {
     cursor: pointer;
@@ -12,22 +17,20 @@ h1{
 .flex-container {
     display: flex;
     justify-content: right;
-
 }
 .flexible {
     display: inline-flex;
     margin: 20px; 
     box-sizing: border-box;
     padding: 10px;
-    
-
 }
-
 .dark-theme1{
     background-color: #303030;
+    color: #F9F3EC;
 }
 .dark-theme2 {
     background-color: #1b1c1e;
+    color:#F9F3EC;
 }
 .dark-theme3 {
     color: rgba(255, 255, 255, 0.82);
@@ -60,6 +63,13 @@ textarea{
     font-family: inherit;
     cursor: pointer;
 }
+#Dark {
+    justify-content: right;
+    background-color: #4B7171
+}
+#Cancel{
+    background-color: #D9827C;
+}
 .button:hover {
     background: #ff96ad;
     box-shadow: 0 0 5px #ff96ad, 0 0 25px
@@ -67,13 +77,13 @@ textarea{
 }
 aside{
     background-color: bisque;
-      height: 110vh; 
+      height: 100vh; 
      
 }
 article{
     background-color: #F9F3EC;
-    height: 110vh; 
-    width: 102%;
+    height: 100vh; 
+    width: 100%;
 
 }
 .grid-container-2{
@@ -94,60 +104,52 @@ footer{
 
 .light-theme1 {
     background-color: bisque;
+    color: black;
 } 
 .light-theme2 {
 
     background-color: #F9F3EC;
+    color: black;
 }
 .light-theme3{
     color: black;
 }
+.header1{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
 @media (max-width: 500px)    {
     #main{
         display: inline-block;
-        font-family: 'Luxurious Roman', cursive;
-    }
-    .grid-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
     aside{
         display: flex;
-        background-color: bisque;
         width: 95vw;
         height: fit-content;
-
-         
-    }
-    article{
-        background-color: #F9F3EC;
-
     
     }
+    
     section{
         display: flex;
         justify-content: center;
     }
     textarea{
         border: solid violet 2px;
-        padding-bottom: 150px;
-        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px;
-        width: 95%;
-        font-family: inherit;
+
         margin: 0%;
     }
     .button{
-        background-color: #55869B;
-        color: white;
-        border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px;
-        padding: 10px;
-        font-family: inherit;
+
         margin-left: 0%;
     }
+    
     footer{
         display: flex;
-        line-height: 2px;
+
         justify-content: center;
         bottom: 5px;
-    }
-}
+    }}

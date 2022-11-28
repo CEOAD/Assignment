@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment1</title>
-    <link rel="stylesheet" href="stylesheets.css" />
+    <link rel="stylesheet" href="CSS/stylesheets.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,39 +15,36 @@
     />
   </head>
   <body class="light-theme3 dark-theme3">
-    <header></header>
+    <header class="header1">
+      <div class="light-theme1 dark-theme2 div2">
+        <h1>My notes</h1>
+      </div>
+      <div class="light-theme2 dark-theme1 div1">
+      <h1>Take better notes</h1>
+    </div>
+    </header>
     <main id="main">
       <aside class="light-theme1 dark-theme2">
-        <h1>My notes</h1>
         <ul class="notes">
           <li>note one</li>
           <li>note two</li>
         </ul>
       </aside>
       <article class="light-theme2 dark-theme1">
-        <header>
-          <h1>Take better notes</h1>
-        </header>
-        <div class="flex-container">
+        <nav class="flex-container">
           <p class="flexible" style="margin-right: 0%; margin-bottom: 0%">
             About
           </p>
           <p class="flexible" style="margin-left: 0%; margin-bottom: 0%">
             Docs
           </p>
-        </div>
+        </nav>
         <div class="grid-container">
           <div class="flex-container" style="justify-content: left">
             <button id="New" class="flexible button">New Note</button>
           </div>
           <div class="flex-container">
-            <button
-              id="Dark"
-              class="flexible button"
-              style="justify-content: right; background-color: #4B7171"
-            >
-              Dark Theme
-            </button>
+            <button id="Dark" class="flexible button">Dark Theme</button>
           </div>
         </div>
         <section>
@@ -55,28 +52,28 @@
         </section>
         <div class="flex-container">
           <button id="save" class="flexible button">Save</button
-          ><button id="Cancel"
-          class="flexible button" style="background-color: #D9827C">
-            Cancel
-          </button>
+          ><button id="Cancel" class="flexible button">Cancel</button>
         </div>
-        <footer>
-          <h1>Keep in touch</h1>
-          <div class="grid-container-2">
-            <button class="footer-button" style="justify-content: right">
-              <img
-                src="logos/linkedin_circle_color-512.webp"
-                height="40px"
-                width="40px"
-              />
-            </button>
-            <button class="footer-button" style="justify-content: left">
-              <img src="logos/2034249.png" height="40px" width="40px" />
-            </button>
-          </div>
-        </footer>
       </article>
     </main>
+    <footer class="footer1">
+      <div class="light-theme1 dark-theme2 div3"></div>
+      <div class="light-theme2 dark-theme1 div4">
+      <h1>Keep in touch</h1>
+      <div class="grid-container-2">
+        <button class="footer-button" style="justify-content: right">
+          <img
+            src="logos/linkedin_circle_color-512.webp"
+            height="40px"
+            width="40px"
+          />
+        </button>
+        <button class="footer-button" style="justify-content: left">
+          <img src="logos/2034249.png" height="40px" width="40px" />
+        </button>
+      </div>
+    </div>
+    </footer>
   </body>
 </html>
 <!-- https://github.com/CEOAD/Assignment-1 -->

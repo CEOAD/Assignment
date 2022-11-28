@@ -1,13 +1,26 @@
 let dark = document.getElementById('Dark')
-const article = document.querySelector(".light-theme2")
+const article = document.querySelector("article")
+const div1 = document.querySelector(".div1")
+const div2 = document.querySelector(".div2")
+const div3 = document.querySelector(".div3")
+const div4 = document.querySelector(".div4")
+const aside = document.querySelector("aside")
+// const header = document.querySelector("header")
+// const footer = document.querySelector("footer")
 
-const aside = document.querySelector(".light-theme1")
+const body = document.querySelector("body")
 
-const body = document.querySelector(".light-theme3")
+console.log(body)
 let dark_themed = () => {
     article.classList.toggle('light-theme2')
     aside.classList.toggle('light-theme1')
     body.classList.toggle('light-theme3')
+    div1.classList.toggle('light-theme2')
+    div2.classList.toggle('light-theme1')
+    div3.classList.toggle('light-theme1')
+    div4.classList.toggle('light-theme2')
+    // header.classList.toggle('light-theme3')
+    // footer.classList.toggle('light-theme3')
     if (dark.textContent == 'Light Theme') {
         dark.textContent = 'Dark Theme'}
     else {
