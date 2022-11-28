@@ -5,8 +5,8 @@ const div2 = document.querySelector(".div2")
 const div3 = document.querySelector(".div3")
 const div4 = document.querySelector(".div4")
 const aside = document.querySelector("aside")
-// const header = document.querySelector("header")
-// const footer = document.querySelector("footer")
+const header = document.querySelector("header")
+const footer = document.querySelector("footer")
 
 const body = document.querySelector("body")
 
@@ -19,8 +19,9 @@ let dark_themed = () => {
     div2.classList.toggle('light-theme1')
     div3.classList.toggle('light-theme1')
     div4.classList.toggle('light-theme2')
-    // header.classList.toggle('light-theme3')
-    // footer.classList.toggle('light-theme3')
+    header.classList.toggle('light-theme3')
+    footer.classList.toggle('light-theme3')
+    footer.classList.toggle('light-theme2')
     if (dark.textContent == 'Light Theme') {
         dark.textContent = 'Dark Theme'}
     else {
