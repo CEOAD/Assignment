@@ -7,6 +7,7 @@ const div4 = document.querySelector(".div4")
 const aside = document.querySelector("aside")
 const header = document.querySelector("header")
 const footer = document.querySelector("footer")
+const textarea1 = document.querySelector('textarea')
 
 const body = document.querySelector("body")
 
@@ -22,6 +23,7 @@ let dark_themed = () => {
     header.classList.toggle('light-theme3')
     footer.classList.toggle('light-theme3')
     footer.classList.toggle('light-theme2')
+    textarea1.classList.toggle('light-theme4')
     if (dark.textContent == 'Light Theme') {
         dark.textContent = 'Dark Theme'}
     else {

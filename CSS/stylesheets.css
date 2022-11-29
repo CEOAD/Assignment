@@ -122,6 +122,10 @@ footer{
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
+.light-theme4{
+    background-color: white;
+    color: #1b1c1e;
+}
 @media (max-width: 500px)    {
     body{
         display: grid;
